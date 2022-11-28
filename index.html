@@ -1,1 +1,32 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/csb-014hqs/logo.3c8c6c6e.png" rel="icon"><link href="/csb-014hqs/logo.3c8c6c6e.png" rel="apple-touch-icon"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"><script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script><link rel="stylesheet" href="/csb-014hqs/styles.70f5d5eb.css"></head><body>  <header class="header"> <div id="hamburger" class="fa-bars fas"></div>  <a href="#" class="logo"> <img src="/csb-014hqs/fullLogo.e6d8f9fd.jpg" alt="Car Platinum Logo" class="logoPic"></a> <nav class="nav"> <a href="#home">Home</a> <a href="#vehicles">Vehicles</a> <a href="#services">Services</a> <a href="#featured">Featured</a> <a href="#contact">Contact</a> </nav>  </header>   <section class="home" id="home"> <h1>Faster than light</h1> <img src="/csb-014hqs/home1.35fa74cb.png" alt="car">   </section>   <section class="vehicles" id="vehicles"> <h1 class="heading">Platinum Vehicles</h1> <div class="vehicleSlider"> <div class="wrapper"></div> </div> </section>  <div class="splide" aria-labelledby="carousel-heading"> <h2 id="carousel-heading">Splide Basic HTML Example</h2> <div class="splide__track"> <div class="splide__list"> <li class="splide__slide">Slide 01</li> <li class="splide__slide">Slide 02</li> <li class="splide__slide">Slide 03</li> </div> </div> </div>  <script src="/csb-014hqs/js.0294f3bc.js"></script> <script>new Splide(".splide",{type:"loop",perPage:3,autoplay:!0}).mount();</script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="model">Model:</label>
+<select name="car-model" id="model">
+    <option value="rigatoni">Rigatoni</option>
+  <option value="dave">Dave</option>
+  <option value="ford">Pumpernickel</option>
+  <option value="lancer" selected>lancer</option>
+</select>
+
+<label for="carmake">Make:</label>
+<select name="car-make" id="carmake">
+    <option value="rigatoni">Rigatoni</option>
+  <option value="dave">Dave</option>
+  <option value="ford">Pumpernickel</option>
+  <option value="challenger" selected>mitsubishi</option>
+</select>
+<button id="search">Search</button>
+    <h1 id="hi"></h1>
+    
+</body>
+<script src="index.js"></script>
+</html>
+<!-- //show sold out screen if no results (create div for response, if innerhtml is blank then set the screen AFTEr the loop)
+//pass a function with the parameters to display the car stats -->
